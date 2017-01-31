@@ -1,0 +1,17 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+    servico.email.confirmacao:
+        class: AppBundle\Service\MailerService
+        arguments: [ '@service_container' ]
+
+    servico.activemq.receber.mensagem:
+        class: AppBundle\Service\ActiveMQReceiverMessageService
+        arguments: [ '@service_container', '%active_mq_host%' ]
+
+    servico.activemq.enviar.mensagem:
+        class: AppBundle\Service\ActiveMQSenderMessageService
+        arguments: [ '@service_container', '%active_mq_host%' ]

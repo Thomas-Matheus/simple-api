@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+   api_usuario:
+     image: php:7.0-apache
+     volumes:
+        - ./api:/var/www/api
+        - ./vhost-apache/default-vhost.conf:/etc/apache2/sites-available/000-default.conf
+     ports:
+       - 8080:80
+     command: bash -c "a2enmod rewrite && apache2-foreground"
+
+   api_confirm:
+     image: php:7.0-apache
+     volumes:
+        - ./api:/var/www/api
+        - ./vhost-apache/default-vhost.conf:/etc/apache2/sites-available/000-default.conf
+     ports:
+       - 8081:80
+     command: bash -c "a2enmod rewrite && apache2-foreground"
+
+   api_reserva:
+     image: php:7.0-apache
+     volumes:
+        - ./api:/var/www/api
+        - ./vhost-apache/default-vhost.conf:/etc/apache2/sites-available/000-default.conf
+     ports:
+       - 8082:80
+     command: bash -c "a2enmod rewrite && apache2-foreground"
