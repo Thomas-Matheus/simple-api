@@ -14,7 +14,7 @@ Foram criadas 3 simples APIs, `usuario`, `confirmar` e `reserva` para realizar t
     * Método HTTP **POST**
     * Cadastra um novo usário.
     * **Campos**.: `nome` e `cpf`
-  * **OBS**.: Usuários estático
+  * **OBS**.: Usuários estáticos.
   
 * Reserva
   * `api/reserva/{mensagem}`
