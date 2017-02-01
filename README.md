@@ -10,7 +10,7 @@ Foram criadas 3 simples APIs, `usuario`, `confirmar` e `reserva` para realizar t
 
   * `api/user/1`
     * Método HTTP **GET**
-    * Pesquisa por um usuário pelo `id´.
+    * Pesquisa por um usuário pelo `id`.
 
   * `api/user/`
     * Método HTTP **POST**
