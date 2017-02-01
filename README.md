@@ -72,7 +72,7 @@ Ficando da seguinte forma:
 ```yml
 # Diretório -> api/app/config/parameters.yml
 
-mailer_user: seuemail@gmail.com
-mailer_password: suasenha@secreta
-active_mq_host: localhost:61613
+mailer_user: seuemail@gmail.com       # Email
+mailer_password: suasenha@secreta     # Senha do email
+active_mq_host: localhost:61613       # IP de conexão do ActiveMQ
 ```
