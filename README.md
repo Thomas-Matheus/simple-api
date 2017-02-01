@@ -74,5 +74,5 @@ Ficando da seguinte forma:
 
 mailer_user: seuemail@gmail.com       # Email
 mailer_password: suasenha@secreta     # Senha do email
-active_mq_host: localhost:61613       # IP de conexão do ActiveMQ
+active_mq_host: localhost:61613       # IP de conexão do ActiveMQ default (localhost:61613)
 ```
