@@ -7,13 +7,16 @@ Foram criadas 3 simples APIs, `usuario`, `confirmar` e `reserva` para realizar t
   * `api/user`
     * Método HTTP **GET**
     * Retorna todos os usuários.
+
   * `api/user/1`
     * Método HTTP **GET**
     * Pesquisa por um usuário pelo `id´.
+
   * `api/user/`
     * Método HTTP **POST**
     * Cadastra um novo usário.
     * **Campos**.: `nome` e `cpf`
+
   * **OBS**.: Usuários estáticos.
   
 * Reserva
