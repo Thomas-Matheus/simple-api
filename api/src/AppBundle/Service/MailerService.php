@@ -31,7 +31,7 @@ class MailerService
     {
         $message = \Swift_Message::newInstance()
             ->setSubject('Confirmação')
-            ->setFrom('thomas.nnteam@gmail.com')
+            ->setFrom('send@gmail.com')
             ->setTo($mailPara)
             ->setBody($mensagem)
             ->setContentType('text/html')
