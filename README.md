@@ -65,7 +65,7 @@ Ao rodar o **composer** no final do download das dependias, será solicitado par
 
 Caso não tenha adicionado os dados necessários durante o composer, procurar o arquivo `parameters.yml` no diretório `api/app/config/parameters.yml`.
 
-Ficando da seguinte forma
+Ficando da seguinte forma:
 ```yml
 # Diretório -> api/app/config/parameters.yml
 
